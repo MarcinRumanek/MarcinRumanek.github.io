@@ -27,18 +27,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Contact</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead bg-primary text-white text-center" id="about">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/foto.jfif" alt="..." />
+                <img class="masthead-avatar mb-5" src="assets/img/foto.jfif" alt="Marcin's foto" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Marcin Rumanek</h1>
                 <!-- Icon Divider-->
@@ -51,7 +51,7 @@
                 <p class="masthead-subheading font-weight-light mb-0">BI Engineer · Data Analyst · Data Engineer · PLC/Robot Programmer</p>
             </div>
 		</header>
-		<section class="page-section bg-primary text-white mb-0" id="about">
+		<section class="page-section bg-primary text-white mb-0" >
             <div class="container">
                 <!-- About Section Content-->
                 <div class="row">
@@ -105,7 +105,7 @@
             </div>
         </section>
         		<!-- Footer-->
-        <footer class="footer text-center" id="footer">
+        <footer class="footer text-center" id="contact">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
