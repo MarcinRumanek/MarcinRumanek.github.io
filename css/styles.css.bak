@@ -1380,7 +1380,7 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 25%;
   }
 
   .col-lg-5 {
@@ -11431,8 +11431,8 @@ html {
 }
 
 .masthead {
-  padding-top: calc(4rem + 74px);
-  padding-bottom: 0.25rem;
+  padding-top: calc(1rem + 74px);
+  padding-bottom: 0.025rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -11447,8 +11447,8 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(4rem + 104px);
-    padding-bottom: 0.25rem;
+    padding-top: calc(1rem + 104px);
+    padding-bottom: 0.025rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
